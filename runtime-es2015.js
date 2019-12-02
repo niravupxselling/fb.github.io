@@ -1,7 +1,6 @@
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// install a JSONP callback for chunk loading
 /******/ 	function webpackJsonpCallback(data) {
-			alert("outside")
 /******/ 		var chunkIds = data[0];
 /******/ 		var moreModules = data[1];
 /******/ 		var executeModules = data[2];
